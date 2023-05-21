@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # FreeDns And SignUp
 This Project is an attempt to replicate the (https://freedns.afraid.org/) website. The main page and sign up page.
 
