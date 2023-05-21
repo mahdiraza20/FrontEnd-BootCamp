@@ -22,5 +22,7 @@ then there are three footers.
 - Right Table
 - Bottom Footers
 
+https://jocular-otter-9a5cdc.netlify.app/
+
 this page also has the same stuff as the main one with the exception that there is a table in the center to enter information for signing up to the website
 >>>>>>> 9121df41d56f1b14f538fa652cca34a607e98190
