@@ -84,7 +84,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translate(-37%);
+    transform: translate(+10%);
 }
 .center p:not(:last-child) {
     margin-right: 55px; /* Adjust the value to control the spacing */
