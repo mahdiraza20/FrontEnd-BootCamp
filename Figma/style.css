@@ -16,15 +16,15 @@ a {
 }
 
 body {
-    width: 1440px;
+    
 }
 
 .container {
     background-color: #f6f6f6;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    width: 1440px;
+    /* position: absolute; */
+    /* width: 1300px; */
     height: 56px;
     align-items: center;
     padding: 0px 80px;
@@ -60,14 +60,23 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    position: absolute;
-    width: 1440px;
+    w
+    /* position: absolute; */
+    /* width: 100%; */
     height: 109px;
     left: 0px;
-    top: 56px;
+    /* top: 56px; */
     background-color:#ffffff;
     box-shadow: 0px 4px 14px;  
 }
-.list-options {
+.left {
+    
+    transform: translate(+41%);
+}
+
+.center {
     display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
 }
