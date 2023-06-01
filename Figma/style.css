@@ -54,3 +54,26 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+.header2 {
+    position: absolute;
+    height: 49px;
+    width: 268px;
+    left: 79px;
+    top: 86px;
+}
+.header2-text {
+    position: absolute;
+    height: 49px;
+    width: 268px;
+    left: 79px;
+    top: 86px;
+    border-radius: nullpx;
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+}
