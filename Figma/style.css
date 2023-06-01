@@ -55,31 +55,19 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
-.header2 {
-display: flex; 
-position: absolute;
-width: 1440px;
-height: 109px;
-left: 0px;
-top: 56px;
-background-color:#FFFFFF;
-box-shadow: 0px 4px 14px;
-}
-.header2-left {
-    display: flex;
+.second-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
     position: absolute;
-    width: 268px;
-    height: 49px;
-    left: 79px;
-    top: 86px;
-    
-    font-family: 'Hind Siliguri';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 49px;
-    /* identical to box height */
-    
-    text-align: center;
-
+    width: 1440px;
+    height: 109px;
+    left: 0px;
+    top: 56px;
+    background-color:#ffffff;
+    box-shadow: 0px 4px 14px;  
+}
+.list-options {
+    display: flex;
 }
