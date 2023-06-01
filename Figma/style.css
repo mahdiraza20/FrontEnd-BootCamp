@@ -15,9 +15,7 @@ a {
     /* Remove the underline of the link */
 }
 
-body {
-    
-}
+
 
 .container {
     background-color: #f6f6f6;
@@ -40,7 +38,7 @@ body {
     text-align: center;
 }
 .info-text {
-    padding-right: 50px;
+    padding-right: 100px;
 }
 .image {
     padding-right: 15px;
@@ -60,23 +58,42 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    w
+    height: 109px;
     /* position: absolute; */
     /* width: 100%; */
     height: 109px;
     left: 0px;
     /* top: 56px; */
-    background-color:#ffffff;
-    box-shadow: 0px 4px 14px;  
+    background: #c0bfcd;
 }
 .left {
-    
-    transform: translate(+41%);
+    transform: translate(+24%);
+}
+.left p {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
 }
 
 .center {
     display: flex;
     justify-content: space-between;
-    margin: 5px;
-    padding: 5px;
+    align-items: center;
+    transform: translate(-37%);
+}
+.center p:not(:last-child) {
+    margin-right: 55px; /* Adjust the value to control the spacing */
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+
 }
