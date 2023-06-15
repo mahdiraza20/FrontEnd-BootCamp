@@ -97,3 +97,353 @@ a {
     margin-right: 200px;
 
 }
+
+/* satrt the article part */
+.main-part {
+    background: url("/Figma/Icons/towel-bg.png") no-repeat center;
+    height: 750px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  } 
+  
+  .main-text{
+    font-family: Hind Siliguri;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 80px;
+    width: 422px;
+    left: 80px;
+    top: 401px;
+  }
+  
+  .under-text {
+    font-family: Open-Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    height: 33px;
+    width: 458px;
+    left: 80px;
+    top: 565px;
+    padding: 0 80px;
+  }
+  
+  .shop-button {
+    height: 49px;
+    width: 187px;
+    left: 81px;
+    top: 630px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #9e3040;
+    width: 187px;
+    height: 49px;
+    margin: 0 80px;
+    border: 0;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  /* end the article part */
+  
+  /* start of the benefit part */
+  .benefit-part {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: url("/Figma/Icons/Vector\ 2.svg") no-repeat center;
+    background-size: 100%;
+  }
+  
+  .benefit-part .delivery {
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+  .delivery {
+    text-align: center;
+  }
+  
+  .p1 {
+    font-family: Hind Siliguri;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .p2 {
+    font-family: Open-Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  /* end of the benefit part */
+  
+  /* start of the product part / titel and section 1 */
+  .product-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .p3 {
+    font-family: Hind Siliguri;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: center;
+  }
+  
+  .article-part {
+    display: flex;
+    padding-left: 50px;
+  }
+  
+  .section1 {
+    background: url("/Figma/Icons/image\ 14.svg") no-repeat center;
+    color: #ffffff;
+    width: 548px;
+    height: 707px;
+    border: #fff;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-top: 195px;
+  }
+  
+  .p4 {
+    font-family: Hind Siliguri;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+  }
+  /* end of the product part / titel and section 1 */
+  
+  /* satart of the section2 of the product part */
+  .section2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 40px;
+    margin-left: 2rem;
+  }
+  
+  .div {
+    background: #F3F5F6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 418px;
+    width: 329px;
+    left: 665px;
+    top: 1407px;
+    padding: 10px;
+  }
+  
+  .image {
+    padding: 10px;
+  }
+  
+  .text1 {
+    font-family: Open-Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 14px;
+    padding-bottom: 80px;
+    color: #232323;
+  }
+  
+  .price {
+    display: flex;
+  }
+  
+  .numbers1 {
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    color: #9E3040;
+    padding: 10px;
+  }
+  
+  .numbers2 {
+    text-decoration: line-through;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    height: 26px;
+    color: #686868;
+    padding-top: 19px;
+  }
+  
+  .add-cart {
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  
+  .button-black {
+    height: 42px;
+    width: 137px;
+    left: 834px;
+    top: 1751px;
+    background: #232323;
+    border-radius: 5px;
+  }
+  
+  .button-show {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+  }
+  
+  .show-more {
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background: #9E3040;
+    height: 49px;
+    width: 162px;
+    left: 639px;
+    top: 2382px;
+    border-radius: 5px;
+  }
+  /* end of the section2 of the product part */
+  
+  /* start of the article part 2 */
+  .article-part2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  .material-info {
+    background: #f3f5f6;
+    border-radius: 30px;
+    padding: 76px 30px 40px 30px;
+    align-self: center;
+    width: 35%;
+  }
+  
+  .p-title {
+    font-family: Hind Siliguri;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E3040;
+    
+  }
+  
+  .p5 {
+    font-family: Open-Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;  
+  }
+  
+  .shop-button2 {
+    height: 49px;
+    width: 187px;
+    left: 110px;
+    top: 2925px;
+    border-radius: 5px;
+    background: #232323;
+  }
+  
+.image17 {
+  background: url("/Figma/Icons/image\ 17.svg") no-repeat center;
+  position: absolute;
+  width: 749px;
+  height: 574px;
+  left: 620px;
+  top: 2521px;
+  border-radius: 30px;
+
+}
+.organic-cotton {
+  position: absolute;
+  width: 519px;
+  height: 482px;
+  left: 80px;
+  top: 2567px;
+  background: #F3F5F6;
+  border-radius: 30px;
+}
+.p6 {
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #9E3040;
+  position: absolute;
+  width: 462px;
+  height: 58px;
+  left: 30px;
+  top: 76px;
+}
+.p7 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 2.5;
+  position: absolute;
+  width: 457px;
+  height: 175px;
+  left: 30px;
+  top: 146px;
+}
+.shop-button2 {
+    position: absolute;
+    height: 49px;
+    width: 187px;
+    left: 36px;
+    top: 358px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #9e3040;
+    width: 187px;
+    height: 49px;
+    margin: 0 0px;
+    border: 0;
+    background: #000000;
+    cursor: pointer;
+}
+
