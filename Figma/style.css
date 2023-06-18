@@ -470,7 +470,7 @@ a {
   
 }
 .grid-item {
-  background-color: lightgray;
+  background: #FFFFFF;
   text-align: center;
   width: 410px;
   height: 698px;
@@ -483,7 +483,7 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 39px;
-  color: #000000;
+  color: #9E3040;
   text-align: left;
   margin-left: 18px;
   margin-top: 30px;
@@ -496,8 +496,46 @@ a {
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
-    color: #c40909;
+    color: #303030;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 5px;
+    line-height: 2;
 
 }
 
+.p11 {
+  position: absolute;
+  width: 268px;
+  height: 58px;
+  left: 628px;
+  top: 4180px;
+  
+  font-family: 'Hind Siliguri';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 58px;
+  
+  color: #232323;
 
+}
+
+.p12 {
+  background-image:url(/Figma/Icons/Rectangle\ 69.svg);
+  
+  position: absolute;
+  width: 919px;
+  height: 95px;
+  left: 260px;
+  top: 4378px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
